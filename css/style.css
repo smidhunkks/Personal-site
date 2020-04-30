@@ -2,31 +2,6 @@
     padding: 0;
     margin: 0;
 }
-.mlogo{
-    width: 30px;
-    height: 30px;
-    padding: .5rem;
-}
-.navbar{
-    display: flex;
-    height:50px;
-    background-color: black;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.navitem{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 15px;
-    
-}
-.in-nav{
-    width:50%;
-}
-.nav-link{
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    
+.fnt{
+    font-family: 'Open Sans', sans-serif;
 }
