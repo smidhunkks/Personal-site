@@ -31,4 +31,9 @@
 
 .entho {
     height: 1000px;
+    background-color: whitesmoke;
+}
+.clr{
+    background-color: white;
+    color:rgb(24, 24, 24); ;
 }
