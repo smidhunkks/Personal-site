@@ -1,16 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
 }
-.fnt{
+
+.fnt {
     font-family: 'Open Sans', sans-serif;
+    color: rgb(24, 24, 24);
 }
-.bgdiv{
+
+.bgdiv {
     background-image: url("../images/cover.jpg");
     height: 632px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    bac
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky+.content {
+   /* padding-top: 102px;*/
+}
+.entho{
+    height:1000px;
 }
