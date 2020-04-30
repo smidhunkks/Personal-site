@@ -12,6 +12,7 @@
 .bgdiv {
     background-image: url("../images/cover.jpg");
     height: 632px;
+    width:100%;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,12 +21,14 @@
 .sticky {
     position: fixed;
     top: 0;
-    width: 100%
+    
+    width: 100%;
 }
 
 .sticky+.content {
-   /* padding-top: 102px;*/
+    /* padding-top: 102px;*/
 }
-.entho{
-    height:1000px;
+
+.entho {
+    height: 1000px;
 }
