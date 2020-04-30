@@ -6,3 +6,11 @@
 .fnt{
     font-family: 'Open Sans', sans-serif;
 }
+.bgdiv{
+    background-image: url("../images/cover.jpg");
+    height: 632px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bac
+}
