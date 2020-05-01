@@ -1,5 +1,5 @@
 // List of sentences
-var _CONTENT = [ "Programmer", "Designer", "Webdesigner"];
+var _CONTENT = ["Somewhat Geeky...","Programmer", "Designer", "Webdesigner"];
 
 // Current sentence being processed
 var _PART = 0;
@@ -24,7 +24,7 @@ function Type() {
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
 			_INTERVAL_VAL = setInterval(Delete, 50);
-		}, 1000);
+		}, 1500);
 	}
 }
 
