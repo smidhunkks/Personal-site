@@ -16,13 +16,15 @@
     min-height: 100%;
 }
 .bgdiv {
-    background-image: url("../images/cover.jpg");
+    background-image: url('../images/cover1.webp');
     height: 632px;
     width:100%;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 0px;
+    background-position: 0px 30%;
+    
+    
 }
 
 .sticky {
@@ -63,13 +65,19 @@
   .avtr{
       width: 150px;
       height: 150px;
+      
 
   }
   .Name{
       color:white;
+      font-weight: bold;
   }
   .namediv{
       padding-top: 11rem;
       position: relative;
+      font-family: 'Kanit', sans-serif;
       
+  }
+  .details{
+      font-size:20px
   }
