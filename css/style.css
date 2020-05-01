@@ -3,9 +3,6 @@
     margin: 0;
     
 }
-#Home{
-    height: 100%;
-}
 
 .fnt {
     font-family: 'Open Sans', sans-serif;
@@ -13,7 +10,10 @@
     font-size: 1.3rem;
     opacity: .9;
 }
-
+.cover{
+    height: 100%;
+    min-height: 100%;
+}
 .bgdiv {
     background-image: url("../images/cover.jpg");
     height: 632px;

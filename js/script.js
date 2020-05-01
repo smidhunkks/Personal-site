@@ -1,5 +1,7 @@
+window.onresize = autoResizeDiv;
+autoResizeDiv();
 // When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
+window.onscroll = function () { myFunction() };
 
 // Get the header
 var header = document.getElementById("myHeader");
@@ -14,4 +16,8 @@ function myFunction() {
   } else {
     header.classList.remove("sticky");
   }
-} 
+}
+
+function autoResizeDiv() {
+  document.getElementById('main').style.height = window.innerHeight + 'px';
+}
