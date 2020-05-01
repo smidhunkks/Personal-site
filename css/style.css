@@ -133,3 +133,11 @@
 {
     z-index: 2;
 }
+.cardheadweb{
+    width:10px;
+    height: 10px;
+}
+.footer-text{
+    font-size: .8rem;
+    opacity: .7;
+}
