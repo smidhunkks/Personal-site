@@ -3,6 +3,9 @@
     margin: 0;
     
 }
+#Home{
+    height: 100%;
+}
 
 .fnt {
     font-family: 'Open Sans', sans-serif;
