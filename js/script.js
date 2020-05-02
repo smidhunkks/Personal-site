@@ -51,9 +51,9 @@ function autoResizeDiv() {
 }
 
 /*Menu icon animtion */
-function myFunction(x) {
-  
-  x.classList.toggle("change");
+function cross() {
+  var a=document.getElementById("buttn");
+  a.classList.toggle("change");
   
 }
 /*Menu icon animation */

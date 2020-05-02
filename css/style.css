@@ -2,12 +2,11 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
-    
 }
 
 .fnt {
     font-family: 'Open Sans', sans-serif;
-   /* color: rgb(24, 24, 24);*/
+    /* color: rgb(24, 24, 24);*/
     font-size: 1.3rem;
     opacity: .9;
 }
@@ -32,19 +31,21 @@
     top: 0;
     width: 100%;
     background-color: transparent;
-    color:white;
+    color: white;
     transition: 1s;
 }
-.stick{
-    background-color:white;
+
+.stick {
+    background-color: white;
     transition: 1s;
 }
-.clr{
-    color:white;
+
+.clr {
+    color: white;
 }
 
 .sticky+.content {
-     padding-top: 102px;
+    padding-top: 102px;
 }
 
 .entho {
@@ -52,28 +53,32 @@
     background-color: whitesmoke;
 }
 
-
-
 .bar1, .bar2, .bar3 {
     width: 30px;
     height: 4px;
     margin: 6px 0;
+    transition: .8s;
 }
 
 .change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
+    transition: .8s;
+}
+
+.change .bar2 {
+    opacity: 0;
+    transition: .8s;
+}
+
+.change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-  }
-  
+    transition: .8s;
+}
+
 .brandnm {
-   /* color: black;*/
+    /* color: black;*/
     opacity: .9;
     margin-left: 1rem;
     font-size: 2rem;
@@ -115,17 +120,18 @@
     position: inherit;
 }
 
-.btclr{
+.btclr {
     background-color: white;
 }
 
-a:hover{
-    
+a:hover {
     color: white !important;
 }
-.blk:hover{
+
+.blk:hover {
     color: black !important;
 }
+
 .about-fnt {
     font-family: 'Lato', sans-serif;
     font-weight: bold;
@@ -149,52 +155,70 @@ a:hover{
     height: 1px;
     margin: 30px auto;
 }
-.cardhead{
-    padding-top:10px ;
+
+.cardhead {
+    padding-top: 10px;
     width: 50px;
     height: 50px;
     opacity: .7;
 }
-#myHeader
-{
+
+#myHeader {
     z-index: 2;
 }
-.cardheadweb{
-    width:10px;
+
+.cardheadweb {
+    width: 10px;
     height: 10px;
 }
-.footer-text{
+
+.footer-text {
     font-size: .8rem;
     opacity: .4;
 }
 
-.rotate{
+.rotate {
     animation-name: myanim;
     animation-duration: 4s;
     animation-iteration-count: 1;
     opacity: 1;
 }
-@keyframes myanim{
-    from {opacity: 0;}
-    to {opacity: 1;}
 
+@keyframes myanim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
-.cm-soon{
-    font-size:20px;
+
+.cm-soon {
+    font-size: 20px;
     animation: pop;
     margin-top: auto;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
-@keyframes pop{
-    0%{font-size:20px;}
-    25%{font-size:25px;}
-    50%{font-size:30px;}
-    75%{font-size:25px;}
-    100%{font-size: 20px;}
-    
+
+@keyframes pop {
+    0% {
+        font-size: 20px;
+    }
+    25% {
+        font-size: 25px;
+    }
+    50% {
+        font-size: 30px;
+    }
+    75% {
+        font-size: 25px;
+    }
+    100% {
+        font-size: 20px;
+    }
 }
-.hgt{
-    height:250px;
-    
+
+.hgt {
+    height: 250px;
 }
