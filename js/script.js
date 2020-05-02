@@ -14,8 +14,7 @@ var sticky = header.offsetTop;
 var x=document.getElementsByClassName("clr");
 var l=x.length
 var y=document.getElementsByClassName("btclr");
-console.log(x);
-console.log(l);
+
 function myFunction() {
   if (window.pageYOffset > sticky) {
     
