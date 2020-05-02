@@ -1,5 +1,6 @@
 window.onresize = autoResizeDiv;
 autoResizeDiv();
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () { myFunction() };
 
@@ -23,6 +24,8 @@ function myFunction() {
       if(i<3)
       y[i].style.backgroundColor="black";
       x[i].style.color="black";
+      x[i].classList.add("blk");
+      
       
     }
    
@@ -33,6 +36,7 @@ function myFunction() {
       if(i<3)
       y[i].style.backgroundColor="white";
       x[i].style.color="white"
+      x[i].classList.remove("blk");
     }
     
     
