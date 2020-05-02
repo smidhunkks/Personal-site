@@ -141,3 +141,15 @@
     font-size: .8rem;
     opacity: .7;
 }
+
+.rotate{
+    animation-name: myanim;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+@keyframes myanim{
+    from {opacity: 0;}
+    to {opacity: 1;}
+
+}
