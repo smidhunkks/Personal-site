@@ -153,7 +153,7 @@ a:hover{
 }
 .footer-text{
     font-size: .8rem;
-    opacity: .7;
+    opacity: .4;
 }
 
 .rotate{
@@ -166,4 +166,23 @@ a:hover{
     from {opacity: 0;}
     to {opacity: 1;}
 
+}
+.cm-soon{
+    font-size:20px;
+    animation: pop;
+    margin-top: auto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes pop{
+    0%{font-size:20px;}
+    25%{font-size:25px;}
+    50%{font-size:30px;}
+    75%{font-size:25px;}
+    100%{font-size: 20px;}
+    
+}
+.hgt{
+    height:250px;
+    
 }
