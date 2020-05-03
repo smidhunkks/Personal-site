@@ -227,6 +227,13 @@ a:hover {
     filter: invert();
     width:30px;
     height:30px;
-    opacity: .7;
+    opacity: .8;
     color:black;
+    animation: shine;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes shine{
+    from{opacity:.5}
+    to{opacity:.8}
 }
