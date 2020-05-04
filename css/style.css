@@ -94,7 +94,14 @@
 .avtr {
     width: 105px;
     height: 105px;
+    border: solid 2px;
+    animation: bord;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-color: rgba(255, 255, 255, 0.4);
+    
 }
+
 
 .Name {
     color: white;
