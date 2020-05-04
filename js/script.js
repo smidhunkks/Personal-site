@@ -2,7 +2,10 @@ window.onresize = autoResizeDiv;
 autoResizeDiv();
 
 // When the user scrolls the page, execute myFunction
-window.onscroll = function () { myFunction() };
+window.onscroll = function () {
+  myFunction();
+  progress();
+};
 
 // Get the header
 var header = document.getElementById("myHeader");
@@ -11,8 +14,10 @@ var header = document.getElementById("myHeader");
 var sticky = header.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-var x = document.getElementsByClassName("clr");
+var x = document.getElementsByClassName("clr");//collecting to change color of nav elements 
+
 var l = x.length
+
 var y = document.getElementsByClassName("btclr");
 
 function myFunction() {
@@ -52,8 +57,23 @@ function autoResizeDiv() {
 
 /*Menu icon animtion */
 function cross() {
-  var a=document.getElementById("buttn");
+  var a = document.getElementById("buttn");
   a.classList.toggle("change");
-  
+
 }
 /*Menu icon animation */
+
+
+function progress() {
+  var skill = document.getElementById("about");
+  var skil = skill.offsetTop;
+  if (window.pageYOffset >= skil) {
+    var prog = document.getElementsByClassName("progress-bar");
+    for (var n = 0; n < prog.length; n++) {
+      console.log(prog[n].attributes[2].nodeValue);
+      prog[n].style.width = prog[n].attributes[2].nodeValue + '%';
+
+      console.log(prog[n].attributes[2].nodeValue);
+    }
+  }
+}

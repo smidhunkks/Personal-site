@@ -276,3 +276,7 @@ a:hover {
 .rgskill{
     transform: scaleX(-1);
 }
+.wdt{
+    transition: 1s !important;
+    width:0%;
+}
