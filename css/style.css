@@ -100,6 +100,7 @@
     animation-iteration-count: infinite;
     border-color: rgba(255, 255, 255, 0.4);
     
+    
 }
 
 
@@ -116,7 +117,8 @@
 
 .details {
     font-size: 25px;
-    height: 37.5px
+    height: 37.5px;
+    opacity:.85;
 }
 
 .dnarrow {
@@ -202,7 +204,7 @@ a:hover {
     opacity: .4;
 }
 
-.rotate {
+.fadein {
     animation-name: myanim;
     animation-duration: 4s;
     animation-iteration-count: 1;
