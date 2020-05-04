@@ -63,17 +63,20 @@ function cross() {
 }
 /*Menu icon animation */
 
-
+/*animate progress bar*/
 function progress() {
   var skill = document.getElementById("about");
   var skil = skill.offsetTop;
   if (window.pageYOffset >= skil) {
+
     var prog = document.getElementsByClassName("progress-bar");
+
     for (var n = 0; n < prog.length; n++) {
-      console.log(prog[n].attributes[2].nodeValue);
+
       prog[n].style.width = prog[n].attributes[2].nodeValue + '%';
 
-      console.log(prog[n].attributes[2].nodeValue);
+
     }
   }
 }
+/*animate progress bar end*/
