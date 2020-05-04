@@ -280,3 +280,10 @@ a:hover {
     transition: 1s !important;
     width:0%;
 }
+.cdht{
+    height: 222px;
+}
+.ftr-fnt{
+    color: white;
+    opacity:.7;
+}

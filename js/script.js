@@ -3,8 +3,8 @@ autoResizeDiv();
 
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () {
-  myFunction();
-  progress();
+  myFunction();//for controlling navbar color
+  progress();//for animating skill bar
 };
 
 // Get the header
@@ -55,11 +55,11 @@ function autoResizeDiv() {
   document.getElementById('main').style.height = window.innerHeight + 'px';
 }
 
-/*Menu icon animtion */
+/*Menu icon animation */
+
 function cross() {
   var a = document.getElementById("buttn");
   a.classList.toggle("change");
-
 }
 /*Menu icon animation */
 
