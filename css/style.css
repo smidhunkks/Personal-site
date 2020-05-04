@@ -264,3 +264,15 @@ a:hover {
 .pgfwt{
     font-weight: 600;
 }
+.pgfwtrt{
+    font-weight: 600;
+    align-items: flex-end;
+    justify-content: end;
+}
+.bartext{
+    float: right;
+}
+
+.rgskill{
+    transform: scaleX(-1);
+}
