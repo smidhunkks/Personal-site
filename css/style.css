@@ -257,3 +257,10 @@ a:hover {
         opacity: .5
     }
 }
+
+.progresshgt{
+    height: .5rem !important;
+}
+.pgfwt{
+    font-weight: 600;
+}
