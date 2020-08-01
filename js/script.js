@@ -1,3 +1,4 @@
+
 window.onresize = autoResizeDiv;
 autoResizeDiv();
 
