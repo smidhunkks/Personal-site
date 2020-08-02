@@ -1,79 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
-.portalign{
+
+.portalign {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 12vw;
     font-weight: lighter;
-    
+    text-shadow: rgba(0, 0, 0, 0.9);
 }
-.portanim{
+
+.portanim {
     animation-name: portanimation;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: .5s;
     animation-iteration-count: 1;
     opacity: 0;
-    
 }
-@keyframes portanimation{
-    0%{
+
+@keyframes portanimation {
+    0% {
         opacity: .2;
-        transform:translate(-30px);
+        transform: translate(-30px);
     }
-    100%{
+    100% {
         opacity: .9;
-        transform:translate(10px);
+        transform: translate(10px);
     }
 }
-.folioalign{
+
+.folioalign {
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
     font-size: 12vw;
-    font-weight: bolder;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9);
-   
+    font-weight: bolder;   
+}
+.headresize{
+    font-size: 12vw;
+}
+.rightblock{
+    display: flex;
+    align-items: flex-end;
     
 }
-.folioanim{
+.blackcolor{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.folioanim {
     animation-name: folioanimation;
     animation-duration: 1s;
     animation-timing-function: ease;
     animation-fill-mode: forwards;
-    animation-delay: 1s;
+    animation-delay: .5s;
     animation-iteration-count: 1;
     opacity: 0;
 }
-@keyframes folioanimation{
-    0%{
+
+@keyframes folioanimation {
+    0% {
         opacity: .2;
-        transform:translate(30px);
+        transform: translate(30px);
     }
-    100%{
+    100% {
         opacity: 1;
-        transform:translate(-10px);
+        transform: translate(-20px);
     }
 }
-.bar1{
-    background-color: black;
-    width: 5px;
-    height: 20px;
+
+.bar1 {
+    background-color: white;
+    
+    height: 10px;
+   
 }
+
 .projects{
-    height: 1000px;
+    font-size: 2vw;
+    font-weight: 700;
 }
-.arrowcolor{
-    color: white;
-}
-.bar1{
-    color: white;
-    height: 20px;
-    width: 20px;
+
+.workcard{
+    height: 20vw;
 }
