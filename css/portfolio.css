@@ -87,5 +87,32 @@
 }
 
 .workcard{
-    height: 20vw;
+    /*height: 20rem;*/
+}
+.portfolio-div{
+    background-color: white;
+    box-shadow:5px 5px 20px 0px #6b6a6a38;
+    height: 400px;
+    padding: 10px;
+}
+.small-heading{
+    font-size: 2vw;
+    font-weight: 600;
+}
+.portfolio-links a{
+    padding: 1px;
+    color: black !important;
+    
+    font-style: italic;
+    opacity: .7;
+}
+.portfolio-links a:hover{
+    padding: 1px;
+    color: black !important;
+    text-decoration: none;
+}
+.portfolio-links p{
+    padding: 30px;
+    font-size: 1.2vw;
+    font-weight: 500;
 }
