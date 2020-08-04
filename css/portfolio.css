@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     scroll-behavior: smooth;
 }
 
@@ -85,9 +85,7 @@
     font-weight: 700;
 }
 
-.workcard{
-    /*height: 20rem;*/
-}
+
 .portfolio-div{
     background-color: white;
     box-shadow:5px 5px 20px 0px #6b6a6a38;
@@ -130,4 +128,57 @@
 .portfolio-div-black{
     background-color: rgb(39, 36, 36);
     box-shadow:5px 5px 20px 0px rgb(27, 25, 25);
+}
+.design-works-div{
+    background-color:  rgb(39, 36, 36) !important;
+    
+   /* width: 18rem;*/
+   height: 18rem  ;
+
+   position: relative;
+   max-width: 900px !important;
+   margin: 0 auto;
+
+}
+.design-works-div:hover{
+    transition: 1s;
+    box-shadow:5px 5px 10px 0px rgb(43, 39, 39);
+}
+.design-works-div img{
+    vertical-align: middle;
+}
+.design-works-text{
+    height: 5.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 60%;
+    margin-bottom: 5px;
+    padding: 5px;
+   
+}
+@media(min-width:762px){
+    .design-works-text:hover{
+        transition:1s;
+        width: 80%;
+    }
+}
+
+
+.design-works-text p{
+    opacity: .7;
+    font-style: italic;
+    font-weight: 500;
+}
+.design-works-text a{
+    color: white;
+    opacity: .9;
+    font-style: italic;
+    font-weight: 500;
+}
+.design-works-text a:hover{
+   text-decoration: none;
 }
