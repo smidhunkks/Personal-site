@@ -13,7 +13,7 @@ function autoResizeDiv() {
 
 
 function delayedscroll(){
-    if(pageYOffset!=porttop)
+    ~
     setTimeout(function(){ 
         document.getElementById('main').style.height= window.innerHeight-porttop + 'px';
         document.getElementById('main').style.transition='1s';
