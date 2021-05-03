@@ -1,5 +1,5 @@
 // List of sentences
-var _CONTENT = ["Somewhat Geeky...","Programmer", "Graphic Designer", "Web designer","Blenderrer"];
+var _CONTENT = ["Somewhat Geeky...","Programmer", "Graphic Designer", "Web designer","Blender Artist"];
 
 // Current sentence being processed
 var _PART = 0;
