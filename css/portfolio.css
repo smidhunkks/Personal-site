@@ -138,6 +138,7 @@
    position: relative;
    max-width: 900px !important;
    margin: 0 auto;
+   min-height: fit-content;
 
 }
 .design-works-div:hover{
@@ -146,6 +147,11 @@
 }
 .design-works-div img{
     vertical-align: middle;
+    background-size: contain;
+}
+.tags{
+    opacity: .4;
+    font-size: .9rem;
 }
 .design-works-text{
     height: 5.5rem;

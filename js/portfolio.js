@@ -1,6 +1,7 @@
 //window.onresize = autoResizeDiv;
-window.onload=autoResizeDiv;
-autoResizeDiv();
+window.onload=autoResizeDiv();
+//autoResizeDiv();
+
 delayedscroll();
 
 
@@ -13,7 +14,7 @@ function autoResizeDiv() {
 
 
 function delayedscroll(){
-    ~
+    
     setTimeout(function(){ 
         document.getElementById('main').style.height= window.innerHeight-porttop + 'px';
         document.getElementById('main').style.transition='1s';
