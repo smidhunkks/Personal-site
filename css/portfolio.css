@@ -89,6 +89,7 @@
 .portfolio-div{
     background-color: white;
     box-shadow:5px 5px 20px 0px #6b6a6a38;
+    min-height: 20rem;
     height: auto;
     padding: 10px;
 }
@@ -128,6 +129,7 @@
 .portfolio-div-black{
     background-color: rgb(39, 36, 36);
     box-shadow:5px 5px 20px 0px rgb(27, 25, 25);
+    min-height: 20rem;
 }
 .design-works-div{
     background-color:  rgb(39, 36, 36) !important;
@@ -153,6 +155,7 @@
     opacity: .4;
     font-size: .9rem;
 }
+
 .design-works-text{
     height: 5.5rem;
     position: absolute;
